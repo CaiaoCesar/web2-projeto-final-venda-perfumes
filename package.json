@@ -1,0 +1,24 @@
+{
+  "name": "web2-projeto-final-venda-perfumes",
+  "version": "1.0.0",
+  "author": "Vinícius Alves Amorim",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
